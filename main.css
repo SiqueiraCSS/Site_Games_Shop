@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Fredoka One', cursive;
+}
+
+body,
+input,
+textarea{
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+header {
+    padding: 16px 0;
+    background-color: rgba(65, 3, 49, 0.952);
+    color: rgb(255, 255, 255);
+}
+
+header h1,
+section h2 {
+    font-weight: normal;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+header nav li a {
+    color: rgb(253, 253, 253);
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logos img{
+    height: 100px;
+}
+
+.social img{
+    height: 30px;
+    margin-left: 5px;
+}
+
+.social li{
+    display: inline;
+    margin-right: 8px;
+}
+
+.social li a {
+    text-decoration: none;
+}
+
+
+.logos li{
+    display: inline;
+    margin-right: 10px;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section {
+    color: rgba(65, 3, 49, 0.952);
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+.shop{
+    margin-right: 32px;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contato{
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    height: 50px;
+    background-color: rgba(65, 3, 49, 0.952);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: rgba(114, 26, 92, 0.952);
+}
+
+input:focus, textarea:focus {
+    outline-color: rgba(65, 3, 49, 0.952);
+}
+
+footer {
+    background-color: rgba(65, 3, 49, 0.952);
+    color: rgb(190, 190, 190);
+    padding: 16px;
+}
+
